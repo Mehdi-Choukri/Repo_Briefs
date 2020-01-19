@@ -1,0 +1,888 @@
+/* Page Contact us */
+
+*
+{
+    padding:0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body
+{
+    height:100%;
+    
+}
+.Nav_left ,.Nav_right
+{
+    display: flex;
+    margin-top: 2%;
+   
+}
+
+.Nav_All
+{
+
+    display: flex;
+    background-image: url("../img/BG_Home.png");
+    background-size: cover;
+    height:100%;
+    width:100%;
+    
+}
+
+.Nav_right a
+{
+ margin :  0 30px 0 0;
+
+
+}
+.Nav_right
+{
+    margin-left: 15%;
+   
+}
+.Nav_left div
+{
+    margin-left: 40px;
+   
+}
+.Nav_right a 
+{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.YOURLOGO
+{
+    font-size: 24px;
+    color:  #EFD6AC;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.email_logo , .phone_logo
+{
+    display: flex;
+
+}
+.circle
+{
+    height:35px;
+    width:35px;
+   border-radius:50%;
+   background-color: #605C58;
+   
+}
+.circle i 
+{
+ margin-top: 10px;
+ margin-left: 10px;
+    color:white;
+}
+.PHONENUM,.mail_logo
+{
+    color:white;
+    margin-top: 8px;
+    margin-left:8px;
+}
+.logo i 
+{
+    color:#C49D48;
+   font-size: 25px;
+}
+.bg_message
+{
+    margin-top: -300PX;
+}
+.bg_message pre
+{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.white_space
+{
+    margin-top: 100px;
+    height:50px;
+    width:100%;
+}
+
+  .localisation
+  {
+      display: flex;
+      width:100%;
+  }
+   
+  .locaux_txt1
+  {
+      width:80%;
+   
+  }
+  .locaux_txt1 p
+  {
+      margin-top: 5%;
+    text-align: center;
+  }
+  .locaux_txt1
+  {
+      margin-left: 10%;
+  }
+  .class_img_txt img
+  {
+      width:90%;
+      height:100%;
+  }
+  .locaux_txt2
+  {
+      display: flex;
+      margin-top: 6%;
+      
+  }
+  .para_txt2
+  {
+      margin-top: 2%;
+      text-align: center;
+  }
+  iframe
+  {
+    width:650px;
+   height:450px;
+    border:0;
+  }
+  div button
+  {
+      width:150px;
+      height:45px;
+      background-color: #C49D48;
+      border-radius: 15px;
+  }
+  button i ,span
+  {
+      color: white;
+     
+
+  }
+
+  .class_contacter 
+  {
+      margin-top: -120px;
+      margin-left:15%;
+    
+  }
+  .txt_area  
+  {
+      border-radius: 13px;
+      border-color: #EFD6AC;
+  }
+  .class_contacter input
+  {
+    border-radius: 8px;
+    border-color: #EFD6AC;
+   
+  }
+  .inp_name,.inp_mail,.inp_subject
+  {
+      height:30px;
+  }
+  .container_contact
+  {
+
+    display: flex;
+  }
+  .btn_submit
+  {
+    width:150px;
+    height:45px;
+    background-color: #C49D48;
+    color:white;
+    border-radius: 15px;
+  }
+  .contact_icons
+  {
+      margin-left: 5%;
+      margin-top: -5%;
+  }
+  .contact_icons i 
+  {
+      font-size: 25px;
+      margin-top: 10%;
+  }
+    .contact_icons span 
+    {
+        margin-left: 10px;
+        color:gray;
+    }
+
+    .bg_bonde
+    {
+        background-image: url("../img/bg_bonde.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:150px;
+        width: 100%;
+    }
+
+    .class_contacter input 
+    {
+        margin-top: 25px;
+    }
+
+    /* footer */
+
+    .infos{
+        text-align: center;
+        font-family: 'Raleway';
+          margin-top: 50px;
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: center;
+      }
+      .infos h1{
+        font-size: 16px;
+        color: #688095;
+      }
+      .infologo{
+        
+        flex-direction: row;
+      }
+      .infos p{
+        width: 300px;
+        font-size: 12;
+        color: #688095;
+      }
+      .linkA{
+        margin-left: 100px;
+        flex-direction: row;
+      }
+      .linkB{
+        margin-left: 100px;
+        flex-direction: row;
+      }
+      .ContactC{
+        margin-left: 100px;
+        flex-direction: row;
+      }
+      .infos li {
+        color: #AAA9A9;
+        font-size: 12px;
+      }
+      footer{
+        height: 30px;
+        background-color: #688095;
+        color: #CCCCCC;
+        display: flex;
+      }
+      footer p{
+        font-size: 12px;
+        font-family: 'Raleway';
+        flex-direction: row;
+        margin-left: 400px;
+      }
+.fa-bars
+{
+    font-size: 27px;
+    color:white;
+}
+ 
+#chk1,.fa-bars
+{
+    display: none;
+}
+.footer
+{
+    display: flex;
+}
+
+
+/* Page Accueil */
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.container {
+position: absolute;
+text-align: right;
+height: 70px;
+width: 100%;
+line-height: 70px;
+z-index: 1;
+margin-left: 0;
+}
+
+#logoo{ 
+float: left;
+margin-left: 20px;
+margin-top: 2%;
+z-index: 2;
+}
+
+label{
+      color: white;
+      margin: 0 40px 0 0;
+      font-size: 26px;
+      line-height: 70px;
+    
+}
+
+#toggle{
+      display:none;
+}
+
+.menu{  position: absolute;
+      overflow: hidden;
+      width: 100%;
+      font-family: 'Raleway';
+      height: 50px;
+      padding: 10px 15px;
+}
+
+.menu a{   
+      font-family: 'Raleway';
+      color: white;
+      font-size: 14px; 
+      margin: 0 30px 0 20px;
+      line-height: 60px;
+      text-decoration: none;
+
+}
+
+#title{
+  font-family: 'Raleway';
+  color: white;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 5%;
+  letter-spacing: 7px;
+  font-size: 50px;
+}
+#subtitile1{
+  font-family: 'Raleway';
+  color: white;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 5%;
+}
+
+     
+#tower{
+  width: 100%;
+}
+.slidTop
+{
+    display: flex;
+    margin-top:-150px;
+}
+.Description_city
+{
+    margin-top: 100px;
+}
+
+.contFlex{
+position: absolute;
+margin-top: -70px;
+margin-left: 350px;
+}
+.flish{
+width: 220px;
+height: 340px;
+margin:-3px;
+}
+.flish:hover{
+transform: scale(1.1); 
+}
+#titlecity {
+    font-size: 20px;
+margin-top: 80px;
+margin-left: 50px;
+color: black;
+font-family: 'Raleway';
+} #subcity{
+margin-top: 30px;
+width: 300px;
+margin-left: 50px;
+color: black;
+font-family: 'Raleway';
+font-size: 13px;
+}
+#right{
+width:50px;
+ height:50px;
+}
+#left{
+width:50px;
+ height:50px;
+}
+.leftright{
+margin-left: 200px;
+}
+#noPath{
+ 
+width: 100%;
+}
+.slider2_container
+{
+    background-image: url("../img/noPath.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+   
+}
+
+#explore{
+width: 90%;
+height: 600px;
+background-color: #E2EAF0;
+
+margin-left: auto;
+margin-right: auto;
+display: flex;
+ 
+box-shadow: 0px 10px 45px -6px rgba(0,0,0,0.28);
+}
+
+#hexpo{
+float: right;
+margin-right: 210px;
+margin-top: 70px;
+font-size: 24px;
+color: black;
+font-family: 'Raleway';
+}
+.text_img_container
+{
+    display:block;
+}
+
+#pexpo
+{
+    margin-top: 100px;
+    z-index: 1;
+    text-align: center;
+}
+.enoPath{
+    display: flex;
+    
+    margin-top: 20%;
+    
+ 
+}
+
+#enoPath{
+width: 110px;
+height: 100px;
+padding-left: 2%;
+flex-direction: row;
+}
+
+.leftright2{
+  margin-top: 400px;
+  margin-right: 50px;
+  z-index: 1;
+  width:120px;
+}
+
+#right2{
+width:50px;
+ height:50px;
+}
+#left2{
+width:50px;
+ height:50px;
+}
+#pex{
+ 
+font-size: 14px;
+color: black;
+font-family: 'Raleway';
+z-index: 1;
+position: relative;
+top:-10px;
+ 
+}
+.btn_explore
+{
+    margin-left:400px;
+    margin-top: -120px;
+
+}
+#cercle{
+     
+    margin-top:-20px;
+    width:50px;
+
+    height:50px;
+ 
+}
+
+#titlemaps{
+position: absolute;
+font-size: 20px;
+color: black;
+font-family: 'Raleway';
+margin-left: 700px;
+margin-top: -510px;
+}
+#pmaps{
+position: absolute;
+font-size: 12px;
+color: black;
+font-family: 'Raleway';
+width: 500px;
+margin-left: 700px;
+margin-top: -470px;
+}
+.maps1
+{
+    margin-top:50px;
+    display: flex;
+}
+.frame_map
+{
+width:450px;
+}
+.div_map2
+{
+    display: block;
+}
+.div_map3
+{
+    display: flex;
+    margin-top:5%;
+}
+#hflsh
+{
+    color:black;
+    font-size: 20px;
+}
+.map12_container
+{
+    display: block;
+    margin-left: 4%;
+}
+#titlemaps1
+{
+    text-align: center;
+}
+#txtflsh1
+{
+     
+    margin-left: 3%;
+}
+#pflsh
+{
+    margin-top:50px;
+}
+ 
+.btnflsh{ 
+font-family: 'Raleway';
+border: none;
+cursor: pointer;
+display: inline-block;
+border-radius: 10px;
+background-color:#C49D48;
+color: white;
+text-align: center;
+font-size: 16px; 
+width: 130px;
+height: 40px;
+ 
+    }
+
+#middlep{
+margin-top: 260px;
+font-family: 'Raleway';
+ text-align: center;
+ 
+ 
+}
+.Galerie {
+display: flex;
+padding: 4px 4px;
+width: 80%;
+margin: auto;
+}
+
+#GalerieP{
+flex: 20%;
+padding: 4px 4px;
+
+}
+
+#PhotoG{
+padding:  4px 4px 4px 4px;
+}
+
+.videotxt {
+margin-top: 30px;
+margin-left: 70px;
+font-family: 'Raleway';
+text-align: center;
+}
+.video{
+margin-top: 90px;
+margin-left: 100px;
+}
+.v{
+width: 250px;
+}
+.email{
+margin-top: 70px;
+}
+#ftr{
+width: 100%;
+height: 220px;
+}
+ 
+.c_news
+{
+    position: relative;
+ color: white;
+font-family: 'Raleway';
+text-align: center;
+top:50px;
+}
+ .div_submit
+{
+ 
+ margin-left: 20%;
+}
+
+.email p {
+
+color: white;
+font-family: 'Raleway';
+text-align: center;
+margin-top: 70px;
+margin-left: 370px;
+position: absolute;
+}
+.email #eml{
+  width: 600px;
+  height: 50px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 120px;
+}
+.btneml{ 
+font-family: 'Raleway';
+border: none;
+cursor: pointer;
+display: inline-block;
+background-color:#C49D48;
+color: white;
+text-align: center;
+font-size: 16px; 
+width: 170px;
+height: 50px;
+position: absolute;
+margin-left:650px;
+margin-top: 120px;
+
+    }
+    .msg_output
+    {
+        color:red;
+        font-size: 15px;
+    }
+
+/* ************************************ */
+/* Media query */
+
+@media only screen and (max-width:900px)
+{
+    .fa-bars
+    {
+      display: block;
+        cursor: pointer;
+    }
+    .bg_message
+{
+    margin-top: -400PX;
+}
+.bg_message pre
+{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+    
+    .Nav_right 
+
+    {
+        text-align: center;
+        display: none;
+    }
+     
+    .Nav_right a 
+    {
+        font-size: 25px;
+        margin: 0;
+        border-bottom: solid 1px gray;
+        display: block;
+    }
+    .burger
+    {
+     width: 10%;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    #chk1:checked ~ .Nav_right
+    {
+       display: block;
+       height:200px;
+       background-color: #514B4B;
+       z-index: 11;
+    }
+    .localisation
+    {
+        display: block;
+    }
+
+    .container_contact
+    {
+        display: block;
+    }
+    .contact_icons
+    {
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .infos
+    {
+        display: block;
+    }
+    ul
+    {
+        list-style: none;
+    }
+    .ContactC p , .infologo p ,.infologo img
+    {
+        margin-left: auto;
+        margin-right:auto;
+        width:100%;
+    }
+    footer
+    {
+        height:50px;
+        text-align: center;
+        display: block;
+    }
+    footer p 
+    {
+        margin-left: auto;
+        margin-right:auto;
+        width:100%;
+    }
+    iframe
+    {
+      width:100%;
+     height:450px;
+      border:0;
+    }
+    
+    #middlep p
+    {
+      
+    }
+   
+   
+
+}
+/* ********************* */
+/* Media quert page Home  */
+
+@media only screen and (max-width:900px)
+{
+
+    .email 
+    {
+        display: block;
+    }
+    .email p,h1
+    {
+       text-align: center;
+       width:100%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .div_submit  
+    {
+         
+        display: block;
+         
+    }
+    #eml
+    {
+        width:200px;
+        margin-left: auto;
+       margin-right: auto;
+
+    }
+    .btneml
+    {
+        margin-top:170px;
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div_map2
+    {
+        display: block;
+    }
+    .email #eml{
+        width: 70%;
+    }
+    #explore
+    {
+        float:none;
+        margin:0;
+        padding:0;
+        display: block;
+    }
+   
+     
+
+ }
+ @media only screen and (max-width:1150px)
+{
+    #explore{
+        width: 100%;
+        height: 800px;
+        background-color: #E2EAF0;
+         
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+         
+        box-shadow: 0px 10px 45px -6px rgba(0,0,0,0.28);
+        }
+        #noPath2
+        {
+            width:30%;
+             
+             margin-left: auto;
+             margin-right: auto;
+            
+        }
+        #noPath2 img {
+            height:300px;
+        }
+
+        .leftright2
+        {
+            margin-top:-150px;
+        }
+        .contFlex img
+        {
+            width:25%;
+            height:25%;
+
+        }
+
+}
